@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "test:update": "npx playwright test --update-snapshots"
+    "test:ui": "npx playwright test --ui",
+    "test:update": "npx playwright test --update-snapshots",
+    "report": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
